@@ -2,6 +2,7 @@ pragma solidity >=0.5.0 <0.6.0;
 
 import "./ownable.sol";
 import "./safemath.sol";
+import "@chainlink/contracts/src/v0.6/VRFConsumerBase.sol";
 
 contract ZombieFactory is Ownable {
 
